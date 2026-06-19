@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="scripts/javascript.js" defer></script>
-    <title>My First WebPage</title>
+    <title>Pulse VR</title>
+
+    <!-- Links the CSS file to the HTML page -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
-    <h1>Home Page</h1>
-    <p>This is the HomePage</p>
-    <button onclick="sayHi()">Click Me</button>
- 
+
+    <!-- Website heading -->
+    <header>
+        <h1>Pulse VR</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">games</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+    <!-- Main content area -->
+    <main>
+        <h2>Welcome to Pulse VR</h2>
+
+<p>
+Welcome to Pulse VR, where gaming goes beyond the screen and becomes a fully immersive experience.
+</p>
+
+<p>
+Whether you are an experienced gamer or trying virtual reality for the first time, Pulse VR offers exciting adventures, multiplayer challenges, and unforgettable experiences using the latest VR technology.
+</p>
+
+<p>
+Our goal is to create a fun, safe, and welcoming environment where visitors can explore new worlds, compete with friends, and enjoy the future of entertainment.
+</p>
+
+<p>
+Browse our games, learn about our pricing options, and book your next session today. We cannot wait to welcome you and help you step into another reality.
+</p>
+        
+
+        <!-- Booking button -->
+        <button>Book Now</button>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>© 2026 Pulse VR</p>
+    </footer>
+<!-- JavaScript for accessibility mode -->
+<script>
+    function accessibilityMode() {
+        document.body.classList.toggle("accessibility");
+    }
+</script>
+  <div class="accessibility-btn">
+    <button onclick="accessibilityMode()">
+        Accessibility Mode
+    </button>
+</div>
 </body>
 </html>
