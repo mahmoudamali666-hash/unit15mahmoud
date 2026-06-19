@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Page title -->
+    <title>Contact Us - Pulse VR</title>
+
+    <!-- Links the CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Pulse VR</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+      
+
+    <!-- Main contact section -->
+    <main>
+
+        <!-- Page heading -->
+        <h2>Contact Us</h2>
+
+        <p>Have a question? Get in touch with our team.</p>
+
+        <!-- Contact details -->
+        <div class="contact-box">
+
+            <h3>Contact Information</h3>
+
+            <p>Email: info@pulsevr.co.uk</p>
+
+            <p>Phone: 0161 123 4567</p>
+
+            <p>Address: 123 Gaming Street, Manchester</p>
+
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-box">
+
+            <h3>Send Us a Message</h3>
+
+            <form>
+
+                <!-- Name input -->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name"><br><br>
+
+                <!-- Email input -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"><br><br>
+
+                <!-- Message input -->
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="5"></textarea><br><br>
+
+                <!-- Submit button -->
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Pulse VR</p>
+    </footer>
+<!-- JavaScript for accessibility mode -->
+<script>
+    function accessibilityMode() {
+        document.body.classList.toggle("accessibility");
+    }
+</script>
+  <div class="accessibility-btn">
+    <button onclick="accessibilityMode()">
+        Accessibility Mode
+    </button>
+</div>
+</body>
+</html>
