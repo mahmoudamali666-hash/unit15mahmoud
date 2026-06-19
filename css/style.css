@@ -1,1 +1,153 @@
+/* Styles the whole page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
 
+    /* Dark blue fading into white */
+    background: linear-gradient(darkblue, white);
+    height: 100vh;
+}
+
+/* Header styling */
+header {
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    padding: 10px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Main content section */
+main {
+    margin-top: 100px;
+}
+
+/* Button styling */
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 150px;
+}/* Pricing boxes */
+.price-box {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+/* Pricing headings */
+.price-box h3 {
+    color: darkblue;
+}/* Game boxes */
+.game-box {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid darkblue;
+}
+
+/* Game title */
+.game-box h3 {
+    color: darkblue;
+}/* Booking form */
+.booking-form {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+
+/* Form inputs */
+.booking-form input,
+.booking-form select {
+    width: 80%;
+    padding: 8px;
+}
+
+/* Form labels */
+.booking-form label {
+    font-weight: bold;
+}
+/* Accessibility mode */
+.accessibility {
+    background: black;
+    color: purple;
+}
+
+/* Accessibility links */
+.accessibility a {
+    color: purple;
+}
+
+/* Accessibility boxes */
+.accessibility .game-box,
+.accessibility .price-box,
+.accessibility .booking-form {
+    background-color: black;
+    color: purple;
+    border: 2px solid purple;
+}
+/* High contrast accessibility mode */
+.accessibility {
+    background: black;
+    color: purple;
+}
+
+/* Navigation links in accessibility mode */
+.accessibility a {
+    color: purple;
+}
+
+/* Header text in accessibility mode */
+.accessibility header {
+    color: purple;
+}
+
+/* Buttons in accessibility mode */
+.accessibility button {
+    background-color: purple;
+    color: black;
+}
+/* Contact page boxes */
+.contact-box {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+/* Contact form inputs */
+.contact-box input,
+.contact-box textarea {
+    width: 80%;
+    padding: 8px;
+}
+.accessibility-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
