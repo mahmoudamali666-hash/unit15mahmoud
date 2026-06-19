@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Page title -->
+    <title>Pricing - Pulse VR</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Website header -->
+    <header>
+        <h1>Pulse VR</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+    <!-- Pricing section -->
+    <main>
+
+        <!-- Page heading -->
+        <h2>Pricing & Memberships</h2>
+
+        <p>Choose the package that suits you best.</p>
+
+        <!-- Session 1 -->
+        <div class="price-box">
+            <h3>30 Minute Session</h3>
+            <p>£10 per person</p>
+        </div>
+
+        <!-- Session 2 -->
+        <div class="price-box">
+            <h3>1 Hour Session</h3>
+            <p>£18 per person</p>
+        </div>
+
+        <!-- Membership -->
+        <div class="price-box">
+            <h3>Monthly Membership</h3>
+            <p>£25 per month</p>
+            <p>Includes discounts and priority booking.</p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Pulse VR</p>
+    </footer>
+<script>
+    function accessibilityMode() {
+        document.body.classList.toggle("accessibility");
+    }
+</script>
+  <div class="accessibility-btn">
+    <button onclick="accessibilityMode()">
+        Accessibility Mode
+    </button>
+</div>
+</body>
+</html>
