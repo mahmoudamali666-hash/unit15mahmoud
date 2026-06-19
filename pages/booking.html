@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Page title -->
+    <title>Booking - Pulse VR</title>
+
+    <!-- Link to CSS file -->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Website header -->
+    <header>
+        <h1>Pulse VR</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">games</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+    <!-- Main booking section -->
+    <main>
+
+        <!-- Page heading -->
+        <h2>Book Your VR Session</h2>
+
+        <p>Fill in the form below to book your experience.</p>
+
+        <!-- Booking form -->
+        <form class="booking-form">
+
+            <!-- Name field -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" required><br><br>
+
+            <!-- Email field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <!-- Date field -->
+            <label for="date">Choose a Date:</label><br>
+            <input type="date" id="date" required><br><br>
+
+            <!-- Session length -->
+            <label for="session">Session Length:</label><br>
+            <select id="session">
+                <option>30 Minutes</option>
+                <option>1 Hour</option>
+            </select><br><br>
+
+            <!-- Submit button -->
+            <button type="submit">Book Now</button>
+
+        </form>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Pulse VR</p>
+    </footer>
+<script>
+    function accessibilityMode() {
+        document.body.classList.toggle("accessibility");
+    }
+</script>
+  <div class="accessibility-btn">
+    <button onclick="accessibilityMode()">
+        Accessibility Mode
+    </button>
+</div>
+</body>
+</html>
